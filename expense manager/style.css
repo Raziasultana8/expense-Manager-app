@@ -1,0 +1,156 @@
+.one {
+  color: black;
+}
+
+.two {
+  margin: 11px 0px;
+}
+
+.three {
+  margin-top: 82px;
+}
+
+.four {
+  margin-top: 20px;
+}
+
+.five {
+  margin-top: 50px;
+  padding: 35px 0px;
+  color: white;
+}
+
+body {
+  font-family: roboto !important;
+}
+
+.bg-color {
+  padding: 10px 0px;
+  width: 34%;
+  margin: 20px auto;
+  background: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.allinputs {
+  margin-left: 80px;
+}
+.emailctrl{
+  margin-bottom: 10px;
+}
+
+
+.allinputs input {
+  width: 75%;
+  
+  padding: 7px;
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid;
+}
+
+.bg-color h1 {
+  text-align: center;
+  margin-top: 35px !important;
+}
+ 
+.body-bg {
+  background: rgb(237, 233, 233);
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.form {
+  margin-top: 62px;
+}
+
+.table-expense thead {
+  background: #eee9e9;
+  ;
+}
+
+.input-control1 input:focus {
+  outline: 0;
+}
+
+.button1 {
+  margin: 25px 0px;
+  text-align: center;
+}
+
+.button1 button {
+  width: 52%;
+  padding: 7px;
+  background: blue;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+}
+
+.total {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.total>div {
+  width: 200px;
+}
+
+.set1 span{
+  margin-right: 20px;
+}
+
+
+.btnaddexp {
+  float: right;
+  margin-top: 37px;
+}
+
+.row input {
+  padding: 7px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid black;
+  width:100%;
+  margin-bottom: 10px;
+}
+
+.zoom {
+  color: black;
+  transition: transform .2s;
+
+}
+
+.zoom:hover {
+  transform: scale(1.23);
+
+  color: green;
+}
+
+.create-btn {
+  text-align: left;
+  margin: 22px;
+}
+.error{
+  color: red;
+}
+@media screen and (max-width: 991px) {
+  .allinputs{
+    margin-left: 20px !important;
+  }
+  .allinputs input{
+    width:94% !important;
+  }
+  .bg-color{
+    width: 100%;
+  }
+  .expense-table{
+overflow: auto;
+  }
+}
